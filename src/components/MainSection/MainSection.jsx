@@ -10,7 +10,7 @@ const MainSection = ({ ticketsPromise }) => {
         <CustomerTickets ticketsPromise={ticketsPromise}></CustomerTickets>
       </div>
 
-      <div className="col-span-3 space-y-[40px]">
+      <div className="col-span-3 space-y-[40px] mt-[50px] md:mt-[80px] lg:mt-0">
         <TaskStatus></TaskStatus>
         <ResolvedTask></ResolvedTask>
       </div>
