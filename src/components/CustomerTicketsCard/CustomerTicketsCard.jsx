@@ -6,7 +6,9 @@ const CustomerTicketsCard = ({ ticket }) => {
   return (
     <div className="p-4 rounded-[4px] bg-white">
       <div className="flex justify-between items-center">
-        <h4 className="font-medium text-[18px]">{ticket.title}</h4>
+        <h4 className="font-medium text-[#001931] text-[18px]">
+          {ticket.title}
+        </h4>
 
         <div className="flex items-center gap-[6px] py-[4px] px-[12px] bg-[#B9F8CF] rounded-full">
           <img src={statusImg} className="w-[16px] h-[16px]" alt="" />

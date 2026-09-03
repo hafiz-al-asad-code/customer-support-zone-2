@@ -1,5 +1,7 @@
 import React from "react";
 import CustomerTickets from "../CustomerTickets/CustomerTickets";
+import TaskStatus from "../TaskStatus/TaskStatus";
+import ResolvedTask from "../ResolvedTask/ResolvedTask";
 
 const MainSection = ({ ticketsPromise }) => {
   return (
@@ -8,8 +10,9 @@ const MainSection = ({ ticketsPromise }) => {
         <CustomerTickets ticketsPromise={ticketsPromise}></CustomerTickets>
       </div>
 
-      <div className="col-span-3 border-2 border-green-500 h-[500px]">
-        right
+      <div className="col-span-3 space-y-[40px]">
+        <TaskStatus></TaskStatus>
+        <ResolvedTask></ResolvedTask>
       </div>
     </div>
   );

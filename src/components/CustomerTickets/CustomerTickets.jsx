@@ -6,7 +6,9 @@ const CustomerTickets = ({ ticketsPromise }) => {
 
   return (
     <div>
-      <h3 className="text-2xl font-semibold mb-4">Customer Tickets</h3>
+      <h3 className="text-2xl text-[#34485A] font-semibold mb-4">
+        Customer Tickets
+      </h3>
 
       <div className="grid md:grid-cols-2 gap-x-6 gap-y-4">
         {ticketsData.map((ticket) => (
