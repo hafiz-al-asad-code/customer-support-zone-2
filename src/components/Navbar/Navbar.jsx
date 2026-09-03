@@ -4,7 +4,7 @@ import React from "react";
 const Navbar = () => {
   return (
     <div className="bg-white py-[17.5px]">
-      <div className="flex justify-between items-center max-w-[1440px] mx-auto px-3 lg:px-0">
+      <div className="flex justify-between items-center max-w-[1440px] mx-auto">
         {/* left */}
         <div className="flex gap-[12px] items-center">
           {/* dropdown */}
