@@ -1,0 +1,137 @@
+[
+  {
+    "id": 1,
+    "title": "Unable to reset password",
+    "description": "The customer is not receiving the password reset email after requesting it multiple times.",
+    "customer": "Rahim Ahmed",
+    "priority": "HIGH",
+    "status": "Open",
+    "createdAt": "01/09/2026"
+  },
+  {
+    "id": 2,
+    "title": "Payment failed during checkout",
+    "description": "The customer tried to complete a payment but the transaction failed at checkout.",
+    "customer": "shu apu",
+    "priority": "HIGH",
+    "status": "Open",
+    "createdAt": "01/09/2026"
+  },
+  {
+    "id": 3,
+    "title": "Account verification issue",
+    "description": "The customer cannot complete the account verification process because the verification code is not working.",
+    "customer": "Tanvir Hasan",
+    "priority": "MEDIUM",
+    "status": "Open",
+    "createdAt": "02/09/2026"
+  },
+  {
+    "id": 4,
+    "title": "Unable to update profile",
+    "description": "The customer gets an error message when trying to update their profile information.",
+    "customer": "Sadia Islam",
+    "priority": "LOW",
+    "status": "Open",
+    "createdAt": "02/09/2026"
+  },
+  {
+    "id": 5,
+    "title": "Order delivery is delayed",
+    "description": "The customer's order has not arrived even though the estimated delivery date has passed.",
+    "customer": "Fahim Rahman",
+    "priority": "HIGH",
+    "status": "Open",
+    "createdAt": "02/09/2026"
+  },
+  {
+    "id": 6,
+    "title": "Wrong item received",
+    "description": "The customer received a different product from the one they ordered.",
+    "customer": "Mim Akter",
+    "priority": "HIGH",
+    "status": "Open",
+    "createdAt": "03/09/2026"
+  },
+  {
+    "id": 7,
+    "title": "Refund has not arrived",
+    "description": "The customer was informed that their refund was processed but the amount has not appeared in their account.",
+    "customer": "Arif Hossain",
+    "priority": "HIGH",
+    "status": "Open",
+    "createdAt": "03/09/2026"
+  },
+  {
+    "id": 8,
+    "title": "App is running slowly",
+    "description": "The customer reports that the application takes a long time to load different pages.",
+    "customer": "Jannatul Ferdous",
+    "priority": "MEDIUM",
+    "status": "Open",
+    "createdAt": "03/09/2026"
+  },
+  {
+    "id": 9,
+    "title": "Cannot download invoice",
+    "description": "The customer cannot download the invoice for their recent purchase.",
+    "customer": "Sakib Khan",
+    "priority": "LOW",
+    "status": "Open",
+    "createdAt": "30/08/2026"
+  },
+  {
+    "id": 10,
+    "title": "Subscription not activated",
+    "description": "The customer completed the subscription payment but their premium features are still unavailable.",
+    "customer": "Tania Rahman",
+    "priority": "HIGH",
+    "status": "Open",
+    "createdAt": "31/08/2026"
+  },
+  {
+    "id": 11,
+    "title": "Notification emails not received",
+    "description": "The customer is not receiving important notification emails from the support system.",
+    "customer": "Mehedi Hasan",
+    "priority": "MEDIUM",
+    "status": "Open",
+    "createdAt": "31/08/2026"
+  },
+  {
+    "id": 12,
+    "title": "Unable to contact support",
+    "description": "The customer reported that the support contact form is not submitting successfully.",
+    "customer": "Raisa Chowdhury",
+    "priority": "MEDIUM",
+    "status": "Open",
+    "createdAt": "01/09/2026"
+  },
+  {
+    "id": 13,
+    "title": "Order cancellation request",
+    "description": "The customer wants to cancel their order before it is shipped.",
+    "customer": "Mahin Kabir",
+    "priority": "LOW",
+    "status": "Open",
+    "createdAt": "01/09/2026"
+  },
+  {
+    "id": 14,
+    "title": "Account locked after login attempts",
+    "description": "The customer's account has been temporarily locked after several unsuccessful login attempts.",
+    "customer": "Nadia Sultana",
+    "priority": "HIGH",
+    "status": "Open",
+    "createdAt": "02/09/2026"
+  },
+  {
+    "id": 15,
+    "title": "Unable to change email address",
+    "description": "The customer cannot update the email address associated with their account.",
+    "customer": "Imran Hossain",
+    "priority": "MEDIUM",
+    "status": "Open",
+    "createdAt": "03/09/2026"
+  }
+]
