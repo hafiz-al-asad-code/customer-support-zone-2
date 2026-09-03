@@ -8,7 +8,7 @@ const CustomerTickets = ({ ticketsPromise }) => {
     <div>
       <h3 className="text-2xl font-semibold mb-4">Customer Tickets</h3>
 
-      <div className="grid grid-cols-2 gap-x-6 gap-y-4">
+      <div className="grid md:grid-cols-2 gap-x-6 gap-y-4">
         {ticketsData.map((ticket) => (
           <CustomerTicketsCard
             key={ticket.id}

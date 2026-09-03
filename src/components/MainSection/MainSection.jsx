@@ -3,7 +3,7 @@ import CustomerTickets from "../CustomerTickets/CustomerTickets";
 
 const MainSection = ({ ticketsPromise }) => {
   return (
-    <div className="max-w-[1440px] mx-auto grid grid-cols-12 gap-8">
+    <div className="max-w-[1440px] mx-auto lg:grid grid-cols-12 gap-8">
       <div className="col-span-9">
         <CustomerTickets ticketsPromise={ticketsPromise}></CustomerTickets>
       </div>
